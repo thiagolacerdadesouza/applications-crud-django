@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'mysite',
     'servers',
     'comment',
-    'linktracker',
 ]
 
 MIDDLEWARE = [

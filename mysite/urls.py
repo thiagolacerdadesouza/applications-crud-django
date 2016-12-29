@@ -22,5 +22,5 @@ urlpatterns = [
     url(r'^polls/', include('polls.urls')),
     url(r'^servers/', include('servers.urls')),
     url(r'^c/', include(comment.urls)),
-    url(r'^links/', include('links.urls')),
+
 ]
