@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% for comment in object_list %}
+        <p> 
+            {{ comment.title }} 
+            <a href="{% url 'comment_detail' comment.pk %}">detail...</a>
+        </p>
+    {% endfor %}
+
+    <a href="{% url 'comment_create' %}">Add...</a>
+{% endblock %}
